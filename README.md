@@ -1,45 +1,64 @@
 # Operational Intelligence Patterns
 
-This repository explores patterns for combining operational knowledge, observability, deterministic analysis, and AI-assisted reasoning to improve engineering decision making.
+## Thesis
 
-## The Problem
+Operational Intelligence is the ability to combine data, experience, context, and judgment to make better operational decisions.
 
-Engineering organizations accumulate years of operational knowledge through incidents, deployments, runbooks, and production support activities.
+Metrics, logs, traces, and telemetry provide information.
 
-Unfortunately, much of that knowledge remains trapped in:
+Operational Intelligence begins when that information is interpreted through the lens of experience.
 
-* Tribal knowledge
-* Incident reports
-* Runbooks
-* Chat conversations
-* Individual experience
+The challenge facing many organizations is that operational expertise often lives inside the heads of a small number of experienced engineers.
 
-The challenge is not generating more data.
+These engineers understand:
 
-The challenge is helping engineers identify signal, reduce noise, and make better decisions.
+* What deserves attention
+* What can be ignored
+* What patterns matter
+* What signals are misleading
+* When to escalate
+* When to wait
+* When a system is behaving normally
+* When a system is behaving abnormally
 
-## Areas of Exploration
+This repository explores patterns for capturing, refining, and scaling that expertise.
 
-### Observability
+---
 
-Metrics, logs, traces, telemetry, and the systems that help engineers understand distributed environments.
+## Core Belief
+
+The most valuable asset in an operational intelligence system is not the model.
+
+It is the operational knowledge accumulated through years of supporting real systems.
+
+---
+
+## Topics
+
+### Operational Knowledge
+
+Capturing the reasoning patterns used by experienced operators.
+
+### Context Engineering
+
+Providing the right operational context at the right time.
 
 ### Operational Memory
 
-Capturing lessons learned, historical context, and institutional knowledge in reusable forms.
+Preserving lessons learned and making them reusable.
 
-### Human-in-the-Loop AI
+### Human Feedback Loops
 
-Building systems that assist engineers while maintaining trust, transparency, and operational safety.
+Refining judgment through review, correction, and continuous learning.
 
-### Operational Intelligence
+### Observability
 
-Combining telemetry, context, deterministic analysis, and AI reasoning to help engineers identify risks, anomalies, and opportunities for improvement.
+Using metrics, logs, traces, and telemetry as inputs to operational decision making.
 
-## Guiding Principles
+---
 
-* Deterministic systems where deterministic systems work best.
-* AI should augment human expertise, not replace it.
-* Trust is earned through accuracy, transparency, and consistency.
-* Contradictory evidence is often more valuable than supporting evidence.
-* The goal is not more alerts; the goal is better decisions.
+## Goal
+
+The goal is not to replace experienced engineers.
+
+The goal is to make their judgment available when it is needed most.
