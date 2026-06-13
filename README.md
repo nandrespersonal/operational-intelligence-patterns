@@ -25,6 +25,41 @@ This repository explores patterns for capturing, refining, and scaling that expe
 
 ---
 
+## Repository Map
+
+This repository is organized around a central idea:
+
+> Operational Intelligence is the capture, refinement, and scaling of operational judgment.
+
+### Foundations
+
+- [Architecture](docs/architecture.md)
+- [Architecture Diagram](docs/architecture-diagram.md)
+
+### Core Concepts
+
+- [Context Engineering](docs/context-engineering.md)
+- [Operational Memory](docs/operational-memory.md)
+- [Operational Judgment](docs/operational-judgment.md)
+
+### Learning Systems
+
+- [Human Feedback Loops](docs/human-feedback-loops.md)
+- [Confidence & Hypothesis](docs/confidence-and-hypothesis.md)
+
+### Practical Application
+
+- [Deployment Intelligence](docs/deployment-intelligence.md)
+
+### Project Story
+
+- [About This Project](docs/about-this-project.md)
+
+### Future Direction
+
+- [Roadmap](docs/roadmap.md)
+
+
 ## Core Belief
 
 The most valuable asset in an operational intelligence system is not the model.
