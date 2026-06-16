@@ -55,6 +55,12 @@ Providing accurate status was useful.
 
 Providing operational understanding was far more valuable.
 
+What surprised me most was that once reporting was automated, operators began uncovering deeper issues within the deployment ecosystem itself. The reporting burden had been consuming so much attention that more meaningful operational insights remained hidden beneath the surface.
+
+The visible problem was reporting.
+
+The deeper problem was operational visibility.
+
 ---
 
 ## Why Operational Judgment Is Difficult To Scale
@@ -111,7 +117,15 @@ Build for the customer, not for the engineer.
 
 My initial focus was on improving reporting.
 
-Over time, my focus shifted toward improving decision making.
+I believed the primary problem was deployment status communication. Operators were spending significant time gathering information and manually reporting progress to stakeholders.
+
+The obvious solution was to automate reporting.
+
+Once reporting was automated, something unexpected happened.
+
+Operators suddenly had more time to focus on deployment health itself. As they dug deeper into logs, telemetry, bottlenecks, and deployment signals, it became clear that reporting was never the primary problem.
+
+The real problem was operational visibility.
 
 The question changed from:
 
@@ -119,15 +133,21 @@ The question changed from:
 
 to:
 
-> How can I provide more useful information?
+> Am I solving the right problem?
 
-I learned that operational intelligence is not about generating additional data, additional dashboards, or additional features.
+And later:
 
-It is about helping people focus on what matters.
+> How can I help operators understand what matters?
 
-The most valuable systems are not the ones with the most bells and whistles.
+This became one of the foundational ideas behind Operational Intelligence.
 
-They are the ones that consistently deliver the information people need to make better decisions.
+Operational Intelligence is not only about capturing operational knowledge, context, and judgment.
+
+It is also about helping teams identify the actual problem before they spend time optimizing the wrong one.
+
+Many engineering efforts begin by solving the visible pain point.
+
+The highest leverage often comes from discovering the hidden constraint underneath it.
 
 ---
 
@@ -137,8 +157,12 @@ This project began as an effort to improve deployment reporting.
 
 It evolved into an exploration of operational intelligence.
 
+Over time, I realized that operational knowledge is valuable for more than making decisions.
+
+It is often required to correctly identify which problem should be solved in the first place.
+
 The central question became:
 
-> How do we capture operational knowledge, context, and judgment so that engineers can spend less time gathering information and more time solving problems?
+> How do we capture operational knowledge, context, and judgment so that engineers can spend less time gathering information, spend more time solving problems, and ensure they are solving the right problem?
 
 That question continues to shape the ideas explored throughout this repository.
